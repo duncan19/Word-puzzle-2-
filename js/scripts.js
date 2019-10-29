@@ -1,6 +1,7 @@
 $(document).ready(function(){
 $("#inputform").submit(function(event){
   event.preventDefault();
+  $("#inputform").hide();
 
   var sentence = $("input#UserInput").val();
 
